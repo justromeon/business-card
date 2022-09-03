@@ -1,0 +1,28 @@
+body {
+    margin: 20px;
+    font-family: Gara Courier New, Courier, monospace;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #e5e2d9;
+    color: #686763;
+    border-right: 6px solid #f1dbce;
+    border-bottom: 6px solid #f1dbce;
+    border-radius: 10px
+}
+.card:hover {
+    background: #f1dbce;
+    color: #6f4e37;
+    border-color: #686763;
+    font-weight: bolder;
+}
